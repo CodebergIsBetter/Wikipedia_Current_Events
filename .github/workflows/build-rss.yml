@@ -1,0 +1,38 @@
+name: Build RSS (Wikipedia Current Events, 2 days ago UTC)
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    # Daily at 00:10 UTC
+    - cron: "10 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build RSS
+        run: |
+          python scripts/build_rss.py
+
+      - name: Commit & push if changed
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add rss/index.xml
+            git commit -m "RSS (UTC): update $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git push
+          else
+            echo "No changes."
+          fi
+

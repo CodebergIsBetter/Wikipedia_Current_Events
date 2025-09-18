@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Wikipedia Current Events (2 days ago, UTC)</title>
+<link>https://en.wikipedia.org/wiki/Portal:Current_events</link>
+<description>Daily RSS linking to Wikipedia Current Events page from two days prior (UTC).</description>
+<lastBuildDate>Thu, 18 Sep 2025 11:01:24 GMT</lastBuildDate>
+<pubDate>Tue, 16 Sep 2025 00:00:24 GMT</pubDate>
+<generator>Python</generator>
+<item>
+<title>Wikipedia Current Events for 2025-09-16</title>
+<link>https://en.wikipedia.org/wiki/Portal:Current_events/2025_September_16</link>
+<guid isPermaLink="false">934e89ea8e46386c5d86c8e11995c3e63e340655</guid>
+<pubDate>Tue, 16 Sep 2025 00:00:24 GMT</pubDate>
+<description>Link to Wikipedia Current Events page for 2025-09-16 (UTC)</description>
+</item>
+</channel>
+</rss>
