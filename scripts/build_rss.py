@@ -19,7 +19,7 @@ rss = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
 <title>Wikipedia Current Events (2 days ago, UTC)</title>
-<link>{BASE_URL}</link>
+<link>https://github.com/CodebergIsBetter/Wikipedia_Current_Events/tree/main</link>
 <description>Daily RSS linking to Wikipedia Current Events page from two days prior (UTC).</description>
 <lastBuildDate>{datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")}</lastBuildDate>
 <pubDate>{pub_date}</pubDate>
