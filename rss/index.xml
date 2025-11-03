@@ -4,15 +4,15 @@
 <title>Wikipedia Current Events (2 days ago, UTC)</title>
 <link>https://github.com/CodebergIsBetter/Wikipedia_Current_Events/tree/main</link>
 <description>Daily RSS linking to Wikipedia Current Events page from two days prior (UTC).</description>
-<lastBuildDate>Sun, 02 Nov 2025 02:19:08 GMT</lastBuildDate>
-<pubDate>Fri, 31 Oct 2025 00:00:08 GMT</pubDate>
+<lastBuildDate>Mon, 03 Nov 2025 02:18:30 GMT</lastBuildDate>
+<pubDate>Sat, 01 Nov 2025 00:00:30 GMT</pubDate>
 <generator>Python</generator>
 <item>
-<title>Wikipedia Current Events for 2025-10-31</title>
-<link>https://en.wikipedia.org/wiki/Portal:Current_events/2025_October_31</link>
-<guid isPermaLink="false">f56a5abb8af23e0f1a97849d998bb8c2f46a3dbf</guid>
-<pubDate>Fri, 31 Oct 2025 00:00:08 GMT</pubDate>
-<description>Link to Wikipedia Current Events page for 2025-10-31 (UTC)</description>
+<title>Wikipedia Current Events for 2025-11-01</title>
+<link>https://en.wikipedia.org/wiki/Portal:Current_events/2025_November_1</link>
+<guid isPermaLink="false">52cc39ad4c08226c32f572d7d56a510758ea67a1</guid>
+<pubDate>Sat, 01 Nov 2025 00:00:30 GMT</pubDate>
+<description>Link to Wikipedia Current Events page for 2025-11-01 (UTC)</description>
 </item>
 </channel>
 </rss>
