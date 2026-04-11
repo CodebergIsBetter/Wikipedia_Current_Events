@@ -29,7 +29,7 @@ rss = f"""<?xml version="1.0" encoding="UTF-8"?>
 <link>{page_url}</link>
 <guid isPermaLink="false">{guid}</guid>
 <pubDate>{pub_date}</pubDate>
-<description>Link to Wikipedia Current Events page for {target.strftime('%Y-%m-%d')} (UTC)</description>
+<description>#Wikipedia #News</description>
 </item>
 </channel>
 </rss>
